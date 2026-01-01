@@ -5,14 +5,14 @@
 ![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red?style=flat&logo=keras)
 ![Finance](https://img.shields.io/badge/Finance-Stock%20Analysis-green)
 
-## 📌 Project Overview
+## Project Overview
 This project implements and compares two types of Recurrent Neural Networks (RNNs) for **Time Series Forecasting**:
 1.  **Long Short-Term Memory (LSTM):** Designed to capture long-term dependencies and prevent the vanishing gradient problem.
 2.  **Simple RNN:** A basic recurrent network that captures short-term temporal dependencies.
 
 The goal is to predict the **Next Day Closing Price** of Google (GOOGL) stock based on historical data from 2010 to 2024.
 
-## 🧠 Model Architectures
+## Model Architectures
 
 ### 1. Long Short-Term Memory (LSTM)
 * **Architecture:** Uses memory cells with gates (input, output, forget) to retain information over long sequences.
@@ -31,7 +31,7 @@ The goal is to predict the **Next Day Closing Price** of Google (GOOGL) stock ba
 [Image of recurrent neural network architecture]
 
 
-## 📊 Results & Comparison
+## Results & Comparison
 Both models were trained on the same dataset and evaluated using **Mean Squared Error (MSE)** loss on the test set.
 
 | Model | Test Loss (MSE) | Predicted Price (Example) | Conclusion |
@@ -43,16 +43,16 @@ Both models were trained on the same dataset and evaluated using **Mean Squared 
 
 *(Note: Visualization of the predicted vs. actual stock prices is available in the notebook.)*
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Deep Learning:** TensorFlow, Keras
 * **Data Retrieval:** `yfinance` API
 * **Data Processing:** Pandas, NumPy, Scikit-learn (MinMaxScaler)
 * **Visualization:** Matplotlib
 
-## 💻 How to Run
+##  How to Run
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR-USERNAME/Stock-Price-Prediction-LSTM-vs-RNN.git](https://github.com/YOUR-USERNAME/Stock-Price-Prediction-LSTM-vs-RNN.git)
+    git clone [https://github.com/PyPro2024/Stock-Price-Prediction-LSTM-vs-RNN.git]
     ```
 2.  **Install dependencies:**
     ```bash
